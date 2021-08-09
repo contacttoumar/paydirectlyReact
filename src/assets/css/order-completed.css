@@ -1,0 +1,49 @@
+.orderCompleted-text{
+    font-style: normal;
+font-weight: bold;
+font-size: 38px;
+line-height: 42px;
+color: #111111;
+}
+.ordercompleted-line{
+    font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 18px;
+color: #222222;
+}
+.ordercompleted-sec{
+    margin-top: 8%;
+}
+.address{
+    margin-top: 5%;
+    margin-left: -20%;
+}
+.email-logo{
+    width: 58%;
+}
+.paddingnone{
+    padding: 0px !important;
+}
+.store{
+    width: 30%;
+    margin-bottom: 10%;
+}
+.thankyou-text{
+    font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+/* or 119% */
+text-align: center;
+color: #232323;
+}
+.margin{
+    margin-top:5%;
+}
+.margin-lg{
+    margin-top: 20%;
+}
+.margin-bt{
+    margin-bottom: 5%;
+}

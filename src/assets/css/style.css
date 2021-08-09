@@ -1,0 +1,259 @@
+/* @import url('./sofiapro-light.otf');
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(../fonts/sofiapro-light.otf);
+} */
+
+.logo{
+  margin-top: 7%;
+}
+
+.default-btn{
+  background-color: #D63158;
+    padding: 7px 32px;
+    border-radius: 8px;
+    border: none;
+    color: #FFFFFF;
+    box-shadow: 0px 10px 20px rgba(214, 49, 88, 0.14);
+}
+.custom-cont{
+  max-width: 991px !important;
+}
+.custom-col{
+  text-align: left;
+}
+.field-div{
+  margin-top: 30px;
+}
+input:focus{
+    outline: none;
+}
+.label{
+  display: block;
+    margin-bottom: 10px;
+}
+.default-input{
+  width: 300px;
+height: 44px;
+border-radius: 4px;
+box-shadow: 0px 2px 18px rgba(35, 59, 37, 0.08);
+padding-left: 15px;
+}
+.firstRow{
+  margin-top: 7%;
+  margin-bottom: 7%;
+}
+.default-tip{
+  padding: 5px 9px;
+  width: 44px;
+  height: 29px;
+  background: #D63158;
+  box-shadow: 0px 4px 16px rgba(214, 49, 88, 0.14);
+  border-radius: 2px;
+color: #FFFFFF;
+margin-right: 18px;
+}
+
+.custom-select-dropdown{
+  width: 300px;
+height: 44px;
+border-radius: 4px;
+box-shadow: 0px 2px 18px rgba(35, 59, 37, 0.08);
+padding-left: 15px;
+}
+.default-label{
+  font-style: normal;
+font-weight: normal;
+font-size: 17px;
+line-height: 17px;
+color: #232323;
+text-align: left;
+}
+
+.tipSection{
+  margin-top: 7%;
+}
+
+.cvc-field{
+  width: 73.23px;
+height: 44px;
+background: #FFFFFF;
+border: 1px solid #233B25;
+box-shadow: 0px 2px 18px rgba(0, 0, 0, 0.05);
+border-radius: 4px;
+}
+
+.date-section{
+  display: flex;
+  margin-top: 7%;
+}
+
+.labels{
+  display: block;
+}
+.cvc-sec{
+  margin-left: 15px;
+}
+
+.date-field-sec{
+  margin-left: 32px;
+margin-right: 22px;
+}
+
+.zipCode{
+  width: 133.31px;
+height: 44px;
+background: #FFFFFF;
+border: 1px solid #233B25;
+box-shadow: 0px 2px 18px rgba(0, 0, 0, 0.05);
+border-radius: 4px;
+}
+.zipSec{
+  margin-top: 5%;
+}
+
+.default-line{
+  border: 0.7px solid #D63158;
+transform: matrix(1, 0, 0, 1, 0, 0);
+width: 260px;
+}
+
+.orderSidebar{
+  background: #EEFCEF;
+border-radius: 12px;
+width: 360px;
+margin: auto;
+padding: 4% 10%;
+}
+.left{
+  text-align: left;
+}
+.deal{
+  margin-left: 25px;
+}
+
+.custom-text{
+  font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+}
+.custom-text{
+  font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+color: #222222;
+padding: 0 15px;
+}
+.customSideSec{
+  margin-top: 21%;
+}
+
+.right{
+  text-align: right;
+}
+.reorder-btn{
+  padding: 5px 25px;
+  border:none;
+  color:white;
+background: #E33636;
+border-radius: 4px;
+}
+
+.reorder-btns{
+  padding: 5px 25px;
+  border:none;
+  color:white;
+background: #28B446;
+border-radius: 4px;
+}
+.reorder-sec{
+  display: flex;
+padding: 11px 14px;
+width: 360px;
+height: 43px;
+background: #FFFFFF;
+margin: auto;
+margin-top: 10%;
+border: 1px solid #eff7f0;
+box-shadow: 4px 8px 20px rgba(0, 0, 0, 0.05);
+border-radius: 4px;
+}
+.date{
+  font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 19px;
+letter-spacing: -0.24px;
+color: #333333;
+margin: 0px 10px;
+}
+.price{
+  font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 20px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.24px;
+color: #333333;
+margin: 0px 40px;
+}
+
+.price-btn{
+padding: 0px 8px;
+color: white;
+font-size: 13px;
+background: #FF547C;
+border-radius: 2px;
+margin: 0px 12px;
+}
+.custom-order-cont{
+  max-width: 424px !important;
+  width: 424px !important;
+}
+.btn-padding-left{
+  padding-left: 34px !important;
+}
+.btn-padding-right{
+  padding-right: 34px !important;
+}
+
+@media only screen and (max-width: 767px) {
+  .custom-col {
+    padding-left: 30% !important;
+  }
+  .default-line{
+    width: 275px;
+  }
+}
+
+@media only screen and (max-width: 597px) {
+  .custom-col {
+    padding-left: 24% !important;
+  }
+  .default-line{
+    width: 300px;
+  }
+}
+
+@media only screen and (max-width: 510px) {
+  .custom-col {
+    padding-left: 18% !important;
+  }
+}
+
+@media only screen and (max-width: 438px) {
+  .custom-col {
+    padding-left: 14% !important;
+  }
+}
+
+@media only screen and (max-width: 393px) {
+  .custom-col {
+    padding-left: 11% !important;
+  }
+}
