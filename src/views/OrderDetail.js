@@ -5,18 +5,23 @@ import Button from '../components/Button';
 import Dropdown from '../components/Dropdown';
 import Label from '../components/Label';
 import Tip from '../components/Tip';
-
 import '../assets/css/bootstrap.min.css';
+
 import '../assets/css/dateField.css';
 import {
   BrowserRouter as Router,
   Switch,
   Route,
+  useHistory,
   Link
 } from "react-router-dom";
 
 
 function Orders() {
+  let history = useHistory();
+    const goToPreviousPath = () => {
+        history.goBack()
+    }
   return (
     <div className="container custom-cont">
       <div className="row logo">
@@ -29,7 +34,14 @@ function Orders() {
 
         <div className="col-12">
             <div className="sidebar">
-                <p className="orderHeading">Order detail</p>
+
+              <div className="previous-icon">
+                <div>
+                  <i class="far fa-arrow-alt-circle-left text-left back-icon" onClick={goToPreviousPath}></i>
+                </div>
+              <p className="orderHeading">Order Detail</p>
+              </div>
+
               <hr className="default-line"/>
               <div className="orders">
               <Label label="Orders"/>
@@ -37,7 +49,9 @@ function Orders() {
               <p className='left'>1X <span className="deal">Hamburger</span></p>
               </div>
               <hr className="default-line"/>
-              <p className='left text-center'>Coupon Code</p>
+                <div>
+                  <input type="text" className="coupon" placeholder="+  Coupon Code"/>
+                </div>
               <hr className="default-line"/>
 
               <div className="row total">

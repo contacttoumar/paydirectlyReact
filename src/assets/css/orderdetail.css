@@ -1,9 +1,16 @@
+.coupon[type="text"]::placeholder {
+
+    /* Firefox, Chrome, Opera */
+    text-align: center;
+  }
+
 .orderHeading{
     font-style: normal;
 font-weight: bold;
 font-size: 42px;
 line-height: 42px;
 color: #111111;
+padding-left: 14px;
 }
 
 .sidebar{
@@ -24,4 +31,48 @@ color: #111111;
 }
 .total{
     padding-left: 14px !important;
+}
+.previous-icon{
+    display: flex;
+}
+.back-icon{
+    font-size: 30px;
+    padding-top: 10px;
+    margin-left: -80px;
+}
+
+@media only screen and (max-width: 425px) {
+    .back-icon{
+        margin-left: 0px !important;
+    }
+    .orderHeading{
+        font-size: 34px !important;
+    }
+    .sidebar{
+        padding: 4% 10% !important;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .sidebar{
+        padding: 4% 20% !important;
+    }
+    .orderHeading{
+        font-size: 26px !important;
+    }
+    .back-icon{
+      font-size: 26px !important;
+    }
+}
+
+@media only screen and (max-width: 361px) {
+    .sidebar{
+        width: 300px !important;
+    }
+}
+
+@media only screen and (max-width: 315px) {
+    .sidebar{
+        width: 285px !important;
+    }
 }

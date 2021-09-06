@@ -1,3 +1,4 @@
+
 .orderCompleted-text{
     font-style: normal;
 font-weight: bold;
@@ -6,11 +7,15 @@ line-height: 42px;
 color: #111111;
 }
 .ordercompleted-line{
-    font-style: normal;
+font-style: normal;
 font-weight: 500;
 font-size: 18px;
 line-height: 18px;
 color: #222222;
+}
+.emoji{
+  width: 5%;
+  margin-right: 4%;
 }
 .ordercompleted-sec{
     margin-top: 8%;
@@ -46,4 +51,161 @@ color: #232323;
 }
 .margin-bt{
     margin-bottom: 5%;
+}
+.store-btns{
+    display: flex;
+}
+.playstore-btn,.appstore-btn{
+    width: 35%;
+}
+
+.orderSidebar-second{
+    background: #EEFCEF;
+border-radius: 12px;
+width: 360px;
+margin: auto;
+padding: 4% 10%;
+}
+
+@media only screen and (max-width: 1133px) {
+    .custom-conts{
+        width: 70% !important;
+    }
+    .playstore-btn div{
+        width: 80%;
+    }
+    .appstore-btn div{
+        width: 80%;
+    }
+    .playstore-btn,.appstore-btn{
+        width: 40%;
+    }
+}
+
+@media only screen and (max-width: 1006px) {
+    .playstore-btn,.appstore-btn{
+        width: 45% !important;
+    }
+}
+
+@media only screen and (max-width: 899px) {
+    .custom-conts{
+        width: 80% !important;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .address{
+        margin-left: 0px !important;
+    }
+    .return-store-btn{
+        text-align: center !important;
+    }
+    .downside{
+        position: absolute;
+        margin-top: 75%;
+    }
+    .sidebar-section{
+        margin-top: 10%;
+    }
+    .store{
+        display: block;
+        margin: auto;
+        margin-bottom: 10%;
+    }
+    .playstore-btn,.appstore-btn{
+        width: 35% !important;
+    }
+    .store-btns{
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 654px) {
+    .downside{
+        margin-top: 85% !important;
+    }
+}
+
+@media only screen and (max-width: 580px) {
+    .downside{
+        margin-top: 98% !important;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .downside{
+        margin-top: 110% !important;
+    }
+}
+
+@media only screen and (max-width: 460px) {
+    .playstore-btn,.appstore-btn{
+        width: 50% !important;
+    }
+    .downside{
+        margin-top: 120% !important;
+    }
+}
+
+@media only screen and (max-width: 426px) {
+    .orderSidebar-second{
+        width: 340px !important;
+    }
+    .store-btns{
+        margin-bottom: 10%;
+    }
+    .emoji{
+      width: 15%;
+    }
+    .orderCompleted-text{
+      font-size: 30px !important;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .sidebar-section{
+        margin-bottom: 80% !important;
+    }
+    .downside{
+        margin-top: 150% !important;
+    }
+    .orderSidebar-second{
+        width: 260px !important;
+        padding: 4% 6% !important;
+    }
+    .default-line{
+        width: 220px !important;
+    }
+    .downside{
+        margin-top: 165% !important;
+    }
+    .custom-conts{
+        margin-bottom: 20% !important;
+    }
+    .orderCompleted-text{
+      font-size: 25px !important;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .downside{
+        margin-top: 135% !important;
+    }
+}
+
+@media only screen and (max-width: 326px) {
+    .downside{
+        margin-top: 150% !important;
+    }
+    .orderSidebar-second{
+        width: 240px !important;
+        padding: 4% 9% !important;
+    }
+    .default-line{
+        width: 180px !important;
+    }
+    .downside{
+        margin-top: 165% !important;
+    }
 }
