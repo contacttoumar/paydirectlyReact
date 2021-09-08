@@ -11,18 +11,8 @@ import '../assets/css/style.css';
 import '../assets/css/order-completed.css';
 
 import Button from '../components/Button';
-import CustomField from '../components/CustomField';
-import Dropdown from '../components/Dropdown';
 import Label from '../components/Label';
-import Tip from '../components/Tip';
 import OrderCompletedText from '../components/OrderCompletedText';
-
-import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
-    Link
-  } from "react-router-dom";
 import '../assets/css/bootstrap.min.css';
 import '../assets/css/fontawesome.min.css';
 import '../assets/css/dateField.css';

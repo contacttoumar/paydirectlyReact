@@ -1,18 +1,11 @@
 import React from 'react';
-
 import '../assets/css/style.css';
 import '../assets/css/reorder.css';
-
 import ReOrderBtn from '../components/ReOrderBtn';
 import ReOrderBtns from '../components/ReOrderBtns';
 import Label from '../components/Label';
 import Button from '../components/Button';
-
-
 import '../assets/css/bootstrap.min.css';
-import ReOrderSec from '../components/ReOrderSec';
-
-
 function SecondReorder() {
   return (
     <div className="container custom-order-cont">
@@ -21,7 +14,6 @@ function SecondReorder() {
             <p className="reorder-text">Re Order Page</p>
         </div>
       </div>
-
       <div className="row margin-lg margin-bt">
          <div className="col-6 text-left btn-padding-left">
             <ReOrderBtn label="Reward"/>
@@ -29,8 +21,6 @@ function SecondReorder() {
          <div className="col-6 text-right btn-padding-right">
             <ReOrderBtns label="Edit Your Info"/>
          </div>
-
-            
         <div className="col-12">
             <div className="sidebar">
                 <p className="orderHeading">Order detail</p>
@@ -43,7 +33,6 @@ function SecondReorder() {
               <hr className="default-line"/>
               <p className='left text-center'>Coupon Code</p>
               <hr className="default-line"/>
-
               <div className="row total">
                   <div className="col-6">
                       <Label label="Subtotal"/>
@@ -62,10 +51,8 @@ function SecondReorder() {
               <Button label="Completed Order"/>
             </div>
         </div>
-
       </div>
     </div>
   );
 }
-
 export default SecondReorder;

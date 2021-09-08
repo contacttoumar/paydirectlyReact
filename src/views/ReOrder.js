@@ -1,15 +1,10 @@
 import React from 'react';
-
 import '../assets/css/style.css';
 import '../assets/css/reorder.css';
-
 import ReOrderBtn from '../components/ReOrderBtn';
 import ReOrderBtns from '../components/ReOrderBtns';
-
 import '../assets/css/bootstrap.min.css';
 import ReOrderSec from '../components/ReOrderSec';
-
-
 function ReOrder() {
   return (
     <div className="container custom-order-cont">

@@ -1,8 +1,4 @@
 import React from 'react';
-import '../assets/css/style.css';
-
-
-
 function CustomField(props) {
   return (
     <div className="field-div">

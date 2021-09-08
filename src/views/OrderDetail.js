@@ -1,22 +1,11 @@
 import React from 'react';
+import { useHistory, Link } from "react-router-dom";
 import logo from '../assets/images/logo.png';
 import '../assets/css/orderdetail.css';
 import Button from '../components/Button';
-import Dropdown from '../components/Dropdown';
 import Label from '../components/Label';
-import Tip from '../components/Tip';
 import '../assets/css/bootstrap.min.css';
-
 import '../assets/css/dateField.css';
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  useHistory,
-  Link
-} from "react-router-dom";
-
-
 function Orders() {
   let history = useHistory();
     const goToPreviousPath = () => {
