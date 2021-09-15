@@ -12,32 +12,47 @@ html,body{
   font-family: sofia !important;
 }
 
-input[type="tel"]::placeholder {
+.address-field[type="text"]::placeholder {
 
   /* Firefox, Chrome, Opera */
   text-align: center;
   font-style: italic;
 }
 
-input[type="text"]::placeholder {
+.address-field[type="text"]::placeholder {
 
   /* Firefox, Chrome, Opera */
   text-align: left;
   font-style: italic;
 }
 
-input[type="text"]:-ms-input-placeholder {
+.address-field[type="text"]:-ms-input-placeholder {
 
   /* Internet Explorer 10-11 */
   text-align: left !important;
   font-style: italic;
 
 }
+
+.custom-tip[type="text"]::placeholder {
+
+  /* Firefox, Chrome, Opera */
+  text-align: left;
+  color: white;
+}
+
+.custom-tip[type="text"]:-ms-input-placeholder {
+
+  /* Internet Explorer 10-11 */
+  text-align: left !important;
+  color: white;
+}
+
 .checkboxChecked {
     left: -3px;
     background: #666666;
     border: 4px solid #C4C4C4;
-    box-shadow: 0px 0px 0px 2px #c4c4c4; 
+    box-shadow: 0px 0px 0px 2px #c4c4c4;
     margin-top: 3px;
 }
 .all-fields{
@@ -45,22 +60,27 @@ input[type="text"]:-ms-input-placeholder {
   flex-direction: column;
 }
 .first-field{
+  margin-top: 40px;
   order:1;
   -webkit-order: 1;
 }
 .second-field{
+  margin-top: 18px;
   order:2;
   -webkit-order: 2;
 }
 .third-field{
+  margin-top: 18px;
   order:3;
   -webkit-order: 3;
 }
 .forth-field{
+  margin-top: 18px;
   order:4;
   -webkit-order: 4;
 }
-.fifth0-field{
+.fifth-field{
+  margin-top: 18px !important;
   order:5;
   -webkit-order: 5;
 }
@@ -68,9 +88,34 @@ input[type="text"]:-ms-input-placeholder {
   margin-top: 7%;
 }
 
+.second-default-btn{
+    background-color: #D63158;
+    padding: 10px 26px;
+    border-radius: 5px;
+    border: none;
+    color: #FFFFFF;
+    box-shadow: 0px 10px 20px rgba(214, 49, 88, 0.14);
+    letter-spacing: 1px;
+    font-size: 17px;
+}
+.custom-tip{
+  width: 18%;
+    background: #D63158;
+    border: none;
+    border-radius: 3px;
+    height: 30px;
+    padding-left: 14px;
+}
+.verify-btn{
+  background: #D63158;
+color: white;
+border: none;
+border-radius: 6px;
+padding: 6px 22px;
+}
 .default-btn{
-  background-color: #D63158;
-    padding: 14px 60px;
+    background-color: #D63158;
+    padding: 10px 52px;
     border-radius: 5px;
     border: none;
     color: #FFFFFF;
@@ -87,9 +132,7 @@ input[type="text"]:-ms-input-placeholder {
 .custom-col{
   text-align: left;
 }
-.field-div{
-  margin-top: 30px;
-}
+
 input:focus{
     outline: none;
 }
@@ -140,9 +183,11 @@ text-align: left;
 }
 
 .tipSection{
-  margin-top: 7%;
+  margin-top: 18px;
 }
-
+.seventh-field{
+  margin-top: 24px;
+}
 .cvc-field{
   width: 73.23px;
 height: 44px;
@@ -154,7 +199,7 @@ border-radius: 4px;
 
 .date-section{
   display: flex;
-  margin-top: 7%;
+  margin-top: 18px;
 }
 
 .labels{
@@ -178,7 +223,7 @@ box-shadow: 0px 2px 18px rgba(0, 0, 0, 0.05);
 border-radius: 4px;
 }
 .zipSec{
-  margin-top: 5%;
+  margin-top: 18px;
 }
 .spacing{
   padding-left:22px;
@@ -390,7 +435,9 @@ margin-bottom: 8px;
   }
   .fifth-field{
     order: 2 !important;
+    /* margin-top: 14px !important; */
   }
+
   .sixth-field{
     order: 3 !important;
   }

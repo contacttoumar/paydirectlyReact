@@ -1,6 +1,7 @@
 import React,{ useState } from 'react';
 import { Link } from "react-router-dom";
 import Button from '../components/Button';
+import SecondButton from '../components/SecondButton';
 import CustomField from '../components/CustomField';
 import Dropdown from '../components/Dropdown';
 import EmailInput from "../components/EmailInput";
@@ -55,9 +56,11 @@ function Orders() {
             <Tip label="10%" />
             <Tip label="15%" />
             <Tip label="20%" />
-            <Tip label="Custom" />
+            <input type='text' className="custom-tip" placeholder="Custom"/>
           </div>
-          <TextInput onValidate={(errorMessage, inputValue) => { }} inputLable={"Card Number"} inputName={"card_number"} inputValue={""} displayMessage={"Home address"} errorMessage={""} startLength={1} endLength={200} />
+          <div className='seventh-field'>
+            <TextInput onValidate={(errorMessage, inputValue) => { }} inputLable={"Card Number"} inputName={"card_number"} inputValue={""} displayMessage={"Home address"} errorMessage={""} startLength={1} endLength={200} />
+          </div>
           <div className="date-section">
             <div className="expiry">
               <Label label="Expiry" />
@@ -103,6 +106,7 @@ function Orders() {
             </div>
             <hr className="default-line" />
             <input type='text' className="coupon" placeholder="Coupon Code _ _ _ _" />
+            <button className="verify-btn">Verify</button>
             <hr className="default-line" />
             <div className="row spacing-small">
               <div className="col-6">
@@ -120,7 +124,7 @@ function Orders() {
             </div>
             <hr className="default-line" />
             <p className="custom-text left">By clicking the button below you agree to our terms, privacy and policy and cookie policy</p>
-            <Button label="Completed Order" />
+            <SecondButton label="Completed Order" />
           </div>
         </div>
 
