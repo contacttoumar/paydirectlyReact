@@ -124,7 +124,9 @@ function Orders() {
             </div>
             <hr className="default-line" />
             <p className="custom-text left">By clicking the button below you agree to our terms, privacy and policy and cookie policy</p>
-            <SecondButton label="Completed Order" />
+            <div className="text-center">
+              <SecondButton label="Completed Order" />
+            </div>
           </div>
         </div>
 

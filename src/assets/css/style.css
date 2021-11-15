@@ -31,7 +31,6 @@ html,body{
   /* Internet Explorer 10-11 */
   text-align: left !important;
   font-style: italic;
-
 }
 
 .custom-tip[type="text"]::placeholder {
